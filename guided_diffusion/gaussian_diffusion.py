@@ -24,7 +24,6 @@ def fft2(img):
 def ifft2(img):
     return th.fft.ifftshift(th.fft.ifft2(th.fft.fftshift(img,dim=(-2,-1))),dim=(-2,-1))
 
-
 def low_freq_mutate( a_src, a_trg, L=0.2, ratio=0.9):
     _, _, h, w = a_src.shape
     b = int(h*L)
