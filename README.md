@@ -20,7 +20,7 @@ bash install.sh
   
 
 ## Pretrained Model Chcekpoints
-Click the [links](https://drive.google.com/file/d/14HWKjk8VOZ6HGPZ1PB7mIBcbQKSBAQJ4/view?usp=sharing) to download the checkpoint.
+Click the [link](https://drive.google.com/file/d/14HWKjk8VOZ6HGPZ1PB7mIBcbQKSBAQJ4/view?usp=sharing) to download the checkpoint.
 
 ## Test
 - Inference
