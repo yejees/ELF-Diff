@@ -715,7 +715,6 @@ class GaussianDiffusion:
                         else:
                             adaptive_freq[idxx] = m_two[0]
 
-            print(adaptive_freq[idxx])
             x_start_ema = source_to_target_only_freq(pred_xstart_out.clone().detach(),x_start_ema,L=adaptive_freq[idxx],ratio=0.8)
 
             out["pred_xstart_ema"] = x_start_ema.clone().detach()
