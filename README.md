@@ -18,15 +18,6 @@ This repo contains the code for our paper  <a href="https://doi.org/10.1016/j.me
 bash install.sh
 ```
   
-- Build Model
-```
-from models.segmentation.segment_anything import sam_model_registry
-model, img_embedding_size = sam_model_registry[args.vit_type](args, image_size=args.img_size,
-                                                num_classes=args.num_classes,
-                                                chunk = chunk,
-                                                checkpoint=args.resume, pixel_mean=[0., 0., 0.],
-                                                pixel_std=[1., 1., 1.])
-```
 
 ## Pretrained Model Chcekpoints
 Click the links below to download the checkpoint for the corresponding model type.
@@ -35,6 +26,12 @@ Click the links below to download the checkpoint for the corresponding model typ
 - `vit_l`: [ViT-L SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
 - `vit_b`: [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
 
+## Test
+- Inference
+
+```
+bash test.sh
+```
 ## Citation
 
 If you found ELF-Diff useful in your research, please consider starring ⭐ us on GitHub and citing 📚 us in your research!
