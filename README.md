@@ -21,7 +21,7 @@ bash install.sh
 ```
   
 
-## Pretrained Model Chcekpoints
+## Pretrained Model Checkpoints
 Click the [link](https://drive.google.com/file/d/14HWKjk8VOZ6HGPZ1PB7mIBcbQKSBAQJ4/view?usp=sharing) to download the checkpoint.
 
 ## Test
