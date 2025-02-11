@@ -15,7 +15,7 @@ This repo contains the code for our paper  <a href="https://doi.org/10.1016/j.me
 - Envrionment Setting
 
 ```
-pip install -r requirements.py
+bash install.sh
 ```
   
 - Build Model
