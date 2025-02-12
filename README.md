@@ -14,7 +14,7 @@ This repo contains the code for our paper published in Medical Image Analysis:
 
 
 ## Execution Instructions
-- Envrionment Setting
+- Environment Setting
 
 ```
 bash install.sh
